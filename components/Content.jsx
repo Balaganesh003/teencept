@@ -55,12 +55,10 @@ function Content() {
     <>
       <div className="w-full h-fit pb-12  flex flex-col items-center">
         <h4 className="text-center pt-[1.5rem] md:pt-[4.5rem] text-[2rem] font-[500]">
-          Reimagining commerce for all.
+        Reimagining career networking for ambitious teenagers.
         </h4>
-        <p className="text-center mt-4 text-[20px] w-[95%] lg:w-[40%] ">
-          We&apos;re working to find new and better ways to help <br /> businesses
-          succeed, and we&apos;re looking for people like <br /> you to help shape
-          tomorrow at Square.
+        <p className="text-center mt-4 text-[20px] w-[95%] lg:w-[50%] ">
+        Are you a teenager with big dreams and ambitious career goals? Look no further! Teencept is here to revolutionize the way teenagers network, collaborate and unlock endless opportunities for personal and professional growth.
         </p>
       </div>
       <div class="relative mt-10">
@@ -74,14 +72,12 @@ function Content() {
             width={108}
             height={108}
           />
-          <h3 className=" font-square-medium text-[1.75rem] font-[500] mt-[2rem] text-center">
-            Helping local businesses worldwide.
+          <h3 className=" font-square-medium text-[1.5rem] md:text-[1.75rem] font-[500] px-[20px] md:px-0 mt-[2rem] text-center">
+          High school is just the beginning
           </h3>
-          <p className="mt-[2rem] leading-[28px]  font-[400] text-center w-[85%] lg:w-[70%] ">
-            We started with a little white card reader but haven&apos;t stopped
-            there. Our purpose is economic empowerment, and we&apos;re building
-            tools to help sellers of all sizes succeed on their own terms. Read,
-            watch, and listen to our seller stories in{" "}
+          <p className="md:mt-[2rem] mt-[1rem] leading-[28px]  font-[400] text-center w-[85%] lg:w-[70%] ">
+          High school is just the beginning
+In a world defined by connections, networking has become an essential skill. However, when it comes to professional networking platforms, teenagers often find themselves left out. That&apos;s where Teencept steps in - a unique networking platform designed exclusively for ambitious teenagers. {" "}
             <Link href="#" className="font-[500] text-blue-700">
               Black Owned
             </Link>
