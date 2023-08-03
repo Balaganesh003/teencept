@@ -5,13 +5,14 @@ import Link from "next/link";
 import { AiOutlineArrowRight, AiOutlinePlusCircle } from "react-icons/ai";
 import Cards from "@/components/Cards";
 import Carousel2 from "@/components/Carousel2";
+import Carousal4 from "@/components/Carousal4";
 function interview() {
   const images = [
-    "images/corsoul/careers_home_carousel_03.png",
-    "images/corsoul/careers_home_carousel_04.png",
-    "images/corsoul/careers_home_carousel_05.png",
-    "images/corsoul/careers_home_carousel_AU.png",
-    "images/corsoul/careers_home_carousel_support.png",
+    "https://ik.imagekit.io/nhuikqpll/homepage/70164741_523473378431412_876750050563958581_n-min.jpg",
+    "https://ik.imagekit.io/nhuikqpll/homepage/315629526_500619635420904_6371819520038542661_n-min.jpg",
+    "https://ik.imagekit.io/nhuikqpll/homepage/363384378_662387962577403_4220818092279134437_n-min.jpg",
+    "https://ik.imagekit.io/nhuikqpll/homepage/277371173_1033156637284162_6854499599376410604_n-min.jpg",
+    // "images/corsoul/careers_home_carousel_support.png",
     // Add more images with their respective widths
   ];
 
@@ -62,22 +63,21 @@ function interview() {
         <p className=" tracking-[1px] font-[500] text-[1rem]   text-center">
           INTERVIEWING AT SQUARE
         </p>
-        <p className="md:text-[2.75rem] text-[2rem] font-[500] w-[46%]  md:w-[31%] text-center leading-[2.50rem] md:leading-[3.25rem] mt-[1rem]">
-          What it&apos;s like to interview at Square.
+        <p className="md:text-[2.75rem] text-[2rem] font-[500] w-full px-[20px] md:px-0  md:w-[50%] text-center leading-[2.50rem] md:leading-[3.25rem] mt-[1rem]">
+        Empowering ambitious teens to network, collaborate, grow, succeed
         </p>
-        <p className="md:text-[1.25rem] text-[1.125rem] font-[400] text-center md:w-[42%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
-          Our interviews are focused on finding candidates who are inspired by
-          our purpose of economic empowerment. In line with our core values, we
-          seek and appreciate divergent perspectives, experiences, and
-          backgrounds to help us shape the future for our sellers.
+        <p className="md:text-[1.25rem] text-[1.125rem] font-[400] text-center md:w-[52%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
+       In a fast-paced world where connections are the keys to success, teenagers often find themselves lacking the necessary opportunities to network and build valuable relationships
         </p>
+        <p className="md:text-[1.25rem] text-[1.125rem] font-[400] text-center md:w-[54%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
+        Networking allows them to expand their horizons, learn from others, and open doors to exciting opportunities. However, a networking and collaboration platform focused on personal growth tailored specifically for teenagers didn’t exist - until now. Introducing NovoTeen - the ultimate networking platform for teenagers ready to make their mark on the world.        </p>
       </div>
       <div class="relative mt-10">
-        <Carousel images={images} />
+        <Carousal4 images={images} />
       </div>
       <div className="w-full h-full  flex justify-center mt-10">
         <div className="container  flex justify-center flex-col items-center">
-          <p className="py-6 text-[2rem] font-[500]">How we interview.</p>
+          <p className="py-6 md:text-[2rem] text-[1.5rem] font-[500] w-full px-[20px] text-center md:w-[40%]">Providing teenagers with the guidance they need to thrive</p>
           <div className="grid md:grid-cols-2 grid-cols-1 w-[80%] py-6 mb-10 ">
             <div className="">
               <Image
@@ -88,15 +88,10 @@ function interview() {
               />
             </div>
             <div className="flex flex-col justify-center items-center">
-              <p className="text-[1rem] leading-[1.75rem] w-[84%]">
+              <p className="text-[1rem] leading-[1.75rem] mt-[40px] w-full px-[20px] md:px-0 md:w-[84%]">
                 {" "}
-                We strive to make our interview process a true reflection of our
-                culture: <span className="font-[500]">transparent</span>,{" "}
-                <span className="font-[500]">mindful</span>, and{" "}
-                <span className="font-[500]">collaborative</span>. Throughout
-                the interview process, your recruiter will partner closely with
-                you and guide you through next steps.
-              </p>
+                We understand that networking, especially at such a crucial stage in their lives, requires <span className=" font-bold">more than just facilitating connections.</span>  NovoTeen has come up with a unique and comprehensive approach to empower these young minds to dream big and take bold steps towards their future.
+                </p>
               <Link
                 href="#"
                 className="flex items-center text-blue-500 text-center mt-5"

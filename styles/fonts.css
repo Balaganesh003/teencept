@@ -13,3 +13,57 @@
     font-family: 'Square Sans Pro medium';
     src: url('/fonts/PFSquareSansProMedium_35487.ttf') format('truetype');
 }
+
+/* adding  font helvetica */
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/Helvetica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/Helvetica-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/helvetica-compressed-5871d14b6903a.otf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/helvetica-light-587ebe5a59211.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/Helvetica-Oblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/helvetica-rounded-bold-5871d05ead8de.otf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/fonts/Helvetica-Font/Helvetica.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
