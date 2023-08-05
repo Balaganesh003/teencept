@@ -17,7 +17,7 @@ import FadeInOnScroll from './FadeInOnScroll';
 function Hero() {
   return (
     <div className=" max-w-[100%] relative h-full  pb-[5rem] flex items-center justify-center">
-      <div className="absolute bottom-0 left-8">
+      <div className=" absolute bottom-0 left-8">
         <div className="flex gap-3 items-end">
           <div className="flex flex-col gap-3">
             <FadeInOnScroll delay={800}>
