@@ -1,65 +1,121 @@
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
 import { useEffect, useRef } from 'react';
+import Image from 'next/image';
+import Img from '@/public/images/hero/img.png';
+import Img1 from '@/public/images/hero/img1.png';
+import Img2 from '@/public/images/hero/img2.png';
+import Img3 from '@/public/images/hero/img3.png';
+import Img4 from '@/public/images/hero/img4.png';
+import Img5 from '@/public/images/hero/img5.png';
+import Img6 from '@/public/images/hero/img6.png';
+import Img7 from '@/public/images/hero/img7.png';
+import Img8 from '@/public/images/hero/img8.png';
+import Img9 from '@/public/images/hero/img9.png';
+import FadeInOnScroll from './FadeInOnScroll';
+
 function Hero() {
-    const videoRef = useRef(null);
+  // const videoRef = useRef(null);
 
-    useEffect(() => {
-    const handleWindowResize = () => {
-      const isResponsiveModeActive = window.innerWidth < 768; // Adjust the breakpoint as needed
+  // useEffect(() => {
+  //   const handleWindowResize = () => {
+  //     const isResponsiveModeActive = window.innerWidth < 768; // Adjust the breakpoint as needed
 
-      if (!isResponsiveModeActive) {
-        videoRef.current.play();
-      }
+  //     if (!isResponsiveModeActive) {
+  //       videoRef.current.play();
+  //     }
+  //   };
 
-    };
+  //   const handleScroll = () => {
+  //     const scrollPosition = window.scrollY;
+  //     const windowHeight = window.innerHeight;
+  //     const videoPosition = videoRef.current.getBoundingClientRect().top;
 
-    const handleScroll = () => {
-  const scrollPosition = window.scrollY;
-  const windowHeight = window.innerHeight;
-  const videoPosition = videoRef.current.getBoundingClientRect().top;
+  //     if (
+  //       videoPosition < windowHeight * 0.1 &&
+  //       videoPosition > -windowHeight &&
+  //       scrollPosition > 0
+  //     ) {
+  //       videoRef.current.pause();
+  //     } else {
+  //       videoRef.current.play();
+  //     }
+  //   };
+  //   window.addEventListener('resize', handleWindowResize);
+  //   window.addEventListener('scroll', handleScroll);
 
-  if (
-    videoPosition < windowHeight * 0.1 &&
-    videoPosition > -windowHeight &&
-    scrollPosition > 0
-  ) {
-    
-    videoRef.current.pause();
-  } else {
-    videoRef.current.play();
-  }
-};
-    window.addEventListener('resize', handleWindowResize);
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('resize', handleWindowResize);
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('resize', handleWindowResize);
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
   return (
-    <div className=' max-w-[100%] h-full flex items-center justify-center'>
-    <div className=' lg:w-[calc(1320px + 30vw)] relative  overflow-x-hidden  flex items-center justify-center'>
-<video src="/images/hero_nodollar.mp4"  className='md:w-[100%] h-[300px] w-screen object-fill    md:h-[465px] md:object-cover'  ref={videoRef} data-reset="true" autoPlay  muted playsInline></video>
-    <div className="flex-col   flex items-center  font-semibold    absolute top-2 md:top-[10%] md:left-[40%]">
-        <h6 className='uppercase tracking-[1px] mt-4 md:mt-14'>Work at Square</h6>
-        <h2 className='md:text-[2.625rem] text-[1.5rem] text-center leading-[2rem] md:leading-[3.375rem] mt-5'>
-        Invent today.<br/>
-Shape tomorrow.
-        </h2>
-        <button className='w-[118px] mt-5 py-3 bg-blue-600 rounded text-white hover:bg-blue-700'>
-                <Link href="#">
-                    Search jobs
-                </Link>
+    <div className=" max-w-[100%] relative h-full  pb-[5rem] flex items-center justify-center">
+      <div className="absolute bottom-0 left-8">
+        <div className="flex gap-3 items-end">
+          <div className="flex flex-col gap-3">
+            <FadeInOnScroll delay={800}>
+              <Image src={Img8} alt="hero" className="object-contain" />
+            </FadeInOnScroll>
+            <FadeInOnScroll delay={300}>
+              <Image src={Img7} alt="hero" className="object-contain" />
+            </FadeInOnScroll>
+          </div>
 
-            </button>
+          <FadeInOnScroll delay={500}>
+            <Image src={Img6} alt="hero" className="object-contain " />
+          </FadeInOnScroll>
+          <FadeInOnScroll delay={600}>
+            <Image src={Img9} alt="hero" className="object-contain " />
+          </FadeInOnScroll>
+        </div>
+      </div>
+      <div className="absolute bottom-0 right-8">
+        <div className="flex gap-3 items-end">
+          <div className="flex flex-col gap-3 items-end translate-x-[67.5%]">
+            <FadeInOnScroll delay={100}>
+              <Image src={Img1} alt="hero" className="object-contain" />
+            </FadeInOnScroll>
+            <FadeInOnScroll delay={300}>
+              <Image src={Img} alt="hero" className="object-contain" />
+            </FadeInOnScroll>
+          </div>
+          <div className="flex flex-col gap-3 items-end">
+            <FadeInOnScroll delay={600}>
+              <Image src={Img4} alt="hero" className="object-contain" />
+            </FadeInOnScroll>
+            <FadeInOnScroll delay={200}>
+              <Image src={Img2} alt="hero" className="object-contain" />
+            </FadeInOnScroll>
+          </div>
+          <div className="flex flex-col gap-3">
+            <FadeInOnScroll delay={500}>
+              <Image src={Img5} alt="hero" className="object-contain" />
+            </FadeInOnScroll>
+            <FadeInOnScroll delay={100}>
+              <Image src={Img3} alt="hero" className="object-contain" />
+            </FadeInOnScroll>
+          </div>
+        </div>
+      </div>
+      <div className=" lg:w-[calc(1320px + 30vw)] relative  overflow-x-hidden  flex items-center justify-center">
+        <div className="flex-col   flex items-center  font-semibold     top-2 md:top-[10%] md:left-[40%]">
+          <h6 className="uppercase tracking-[1px] mt-4 md:mt-14">
+            Work at Square
+          </h6>
+          <h2 className="md:text-[2.625rem] text-[1.5rem] text-center leading-[2rem] md:leading-[3.375rem] mt-5">
+            Invent today.
+            <br />
+            Shape tomorrow.
+          </h2>
+          <button className="w-[118px] mt-5 py-3 bg-blue-600 rounded text-white hover:bg-blue-700">
+            <Link href="#">Search jobs</Link>
+          </button>
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
-
-  )
+  );
 }
 
-export default Hero
+export default Hero;
