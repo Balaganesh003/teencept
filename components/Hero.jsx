@@ -15,41 +15,6 @@ import Img9 from '@/public/images/hero/img9.png';
 import FadeInOnScroll from './FadeInOnScroll';
 
 function Hero() {
-  // const videoRef = useRef(null);
-
-  // useEffect(() => {
-  //   const handleWindowResize = () => {
-  //     const isResponsiveModeActive = window.innerWidth < 768; // Adjust the breakpoint as needed
-
-  //     if (!isResponsiveModeActive) {
-  //       videoRef.current.play();
-  //     }
-  //   };
-
-  //   const handleScroll = () => {
-  //     const scrollPosition = window.scrollY;
-  //     const windowHeight = window.innerHeight;
-  //     const videoPosition = videoRef.current.getBoundingClientRect().top;
-
-  //     if (
-  //       videoPosition < windowHeight * 0.1 &&
-  //       videoPosition > -windowHeight &&
-  //       scrollPosition > 0
-  //     ) {
-  //       videoRef.current.pause();
-  //     } else {
-  //       videoRef.current.play();
-  //     }
-  //   };
-  //   window.addEventListener('resize', handleWindowResize);
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener('resize', handleWindowResize);
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
   return (
     <div className=" max-w-[100%] relative h-full  pb-[5rem] flex items-center justify-center">
       <div className="absolute bottom-0 left-8">
