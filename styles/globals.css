@@ -38,3 +38,9 @@ video {
     transform: translateY(0);
   }
 }
+
+@layer components {
+  .hero-img {
+    @apply md:w-[80%] lg:w-[90%] xl:w-[95%] 2xl:w-[100%];
+  }
+}

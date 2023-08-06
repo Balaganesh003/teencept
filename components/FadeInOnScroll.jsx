@@ -30,7 +30,7 @@ const FadeInOnScroll = ({ children, delay = 0 }) => {
   }, [delay]);
 
   return (
-    <div className="fade-initial" ref={elementRef}>
+    <div className="fade-initial " ref={elementRef}>
       {children}
     </div>
   );
