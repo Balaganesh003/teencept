@@ -149,10 +149,10 @@ function Life_at() {
   return (
     <>
       <div className="md:pt-[5.25rem] pt-[3.25rem]  flex justify-center items-center flex-col">
-        <p className="md:text-[2.75rem] text-[2rem] font-[500] w-[46%]  md:w-[31%] text-center leading-[2.50rem] md:leading-[3.25rem] mt-[1rem]">
+        <p className="md:text-[2.75rem] text-[2rem] font-Atkinson font-[500] w-[46%]  md:w-[31%] text-center leading-[2.50rem] md:leading-[3.25rem] mt-[1rem]">
           Life at Square
         </p>
-        <p className="md:text-[1.25rem] text-[1.125rem] font-[300] text-center md:w-[42%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
+        <p className="md:text-[1.25rem] font-Inter text-[1.125rem] font-[300] text-center md:w-[42%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
           This is the place to start, run, and grow your career. At Square,
           you&apos;ll find extraordinary benefits and development opportunities
           that support who you are both inside and outside the office.
@@ -182,7 +182,7 @@ function Life_at() {
       {/* another section */}
       <div className="w-full h-full  flex justify-center mt-10">
         <div className="container  flex justify-center flex-col items-center">
-          <p className="py-6 text-[2rem] font-[500] text-center">Creating an equitable workplace.</p>
+          <p className="py-6 text-[2rem] font-Atkinson font-[500] text-center">Creating an equitable workplace.</p>
           <div className="grid md:grid-cols-2 grid-cols-1 w-[80%] py-6 mb-10 gap-4">
             {/* first  */}
             <div className="flex flex-col items-center  ">
@@ -210,16 +210,16 @@ function Life_at() {
         </div>
       </div>
       <div className="w-full h-full py-[5rem] flex-col bg-[#6DBAAB] flex justify-center items-center">
-          <p className="text-[1.75rem] text-white md:w-[65%] w-[85%] font-[400]">
+          <p className="text-[1.75rem] text-white md:w-[65%] w-[85%] font-Inter font-[400]">
           “We work hard to build a company where all employees are valued, recognized, and able to succeed. It is important to us that our culture is one where diversity is celebrated and folks of all backgrounds feel they belong.”
           </p>
-          <p className="tracking-[1px] text-white text-[1rem] mt-10 text-start  md:w-[65%] w-[85%]">
+          <p className="tracking-[1px] font-Inter text-white text-[1rem] mt-10 text-start  md:w-[65%] w-[85%]">
           SHAWNTEE REED, GLOBAL HEAD OF INCLUSION AND DIVERSITY
           </p>
         </div>
         <div className="py-[3.5rem] flex flex-col items-center ">
-            <p className="text-[2rem] font-[500] text-center  md:w-[20%] w-[80%] ">We believe in being fair and square.</p>
-            <p className="text-center text-[1.25rem] md:w-[35%] w-[85%]  pt-[1.3rem]">We&apos;re building an inclusive economy where all sellers have equal access to opportunity. We strive to live by these same values in all our workplaces.</p>
+            <p className="text-[2rem] font-[500] text-center  md:w-[20%] font-Atkinson w-[80%] ">We believe in being fair and square.</p>
+            <p className="text-center text-[1.25rem] md:w-[35%] w-[85%] font-Inter  pt-[1.3rem]">We&apos;re building an inclusive economy where all sellers have equal access to opportunity. We strive to live by these same values in all our workplaces.</p>
             <div className="container b flex justify-center items-center flex-col">
               <div className="grid grid-cols-2 md:grid-cols-4 w-[80%] pt-[3rem]">
                 {
@@ -250,9 +250,9 @@ function Life_at() {
             </div>
         </div>
         <div className="w-full pt-10 md:pt-16 pb-10 bg-[#F2F2F2] flex flex-col items-center font-[400]">
-          <p className="text-[2rem] font-[500] text-center">We all have something in common.</p>
-          <p className="text-center w-[90%] pt-[1.5rem] md:w-[45%] leading-[1.5rem]">At Square, our purpose is to empower, both inside and outside our walls. We know that to build the best tools for the businesses that we support we have to start with a workforce as diverse and empowered as our sellers and customers.</p>
-          <p className="text-center w-[90%] pt-[1rem] md:w-[45%] leading-[1.5rem]">Communities are our employee-run resource groups that promote universal inclusivity through networking, development opportunities, and social events.</p>
+          <p className="text-[2rem] font-[500] text-center font-Atkinson">We all have something in common.</p>
+          <p className="text-center w-[90%] pt-[1.5rem] md:w-[45%] leading-[1.5rem] font-Inter">At Square, our purpose is to empower, both inside and outside our walls. We know that to build the best tools for the businesses that we support we have to start with a workforce as diverse and empowered as our sellers and customers.</p>
+          <p className="text-center w-[90%] pt-[1rem] md:w-[45%] leading-[1.5rem] font-Inter">Communities are our employee-run resource groups that promote universal inclusivity through networking, development opportunities, and social events.</p>
           <div className="container b flex justify-center items-center flex-col">
               <div className="grid grid-cols-2 md:grid-cols-4 w-[80%] pt-[3rem]">
                 {
@@ -290,7 +290,7 @@ function Life_at() {
             width={100}
             alt="Picture of the author"
           />
-          <p className="pt-[2rem] text-[2rem] font-[500] text-center">
+          <p className="pt-[2rem] font-Atkinson text-[2rem] font-[500] text-center">
           Find the right opportunity at Square.
           </p>
           <Link
@@ -309,9 +309,9 @@ function Life_at() {
                         return(
                           <>
                           <div key={index} className="flex flex-col   h-[230px] w-[320px] bg-white shadow-md py-8 px-6">
-                            <p className="text-start text-[1.125rem] font-[500]">{item.title}</p>
-                            <p className="pt-[1rem] text-[1rem] leading-[1.75rem]">{item.desc}</p>
-                            <Link href="#" className="text-blue-600 pt-[1.5rem] font-[500] ml-2 flex items-center justify-start">
+                            <p className="text-start text-[1.125rem] font-Atkinson font-[500]">{item.title}</p>
+                            <p className="pt-[1rem] text-[1rem] font-Inter leading-[1.75rem]">{item.desc}</p>
+                            <Link href="#" className="text-blue-600 font-Inter pt-[1.5rem] font-[500] ml-2 flex items-center justify-start">
                             {item.link} <AiOutlineArrowRight className="ml-1"/>
                             </Link>
                             </div>  
