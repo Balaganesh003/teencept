@@ -55,21 +55,21 @@ function interview() {
   
   return (
     <>
-      <p className="py-2 bg-[#f2f2f2] text-center font-[500] ">
+      <p className="py-2 bg-[#f2f2f2] font-Inter text-center font-[500] ">
         Currently, all interviews are conducted virtually via phone or Google
         Meet.
       </p>
-      <div className="md:pt-[5.25rem] pt-[3.25rem]  flex justify-center items-center flex-col">
-        <p className=" tracking-[1px] font-[500] text-[1rem]   text-center">
+      <div className="md:pt-[5.25rem] pt-[3.25rem] font-Inter  flex justify-center items-center flex-col">
+        <p className=" tracking-[1px] font-[500] font-Inter text-[1rem]   text-center">
           INTERVIEWING AT SQUARE
         </p>
-        <p className="md:text-[2.75rem] text-[2rem] font-[500] w-full px-[20px] md:px-0  md:w-[50%] text-center leading-[2.50rem] md:leading-[3.25rem] mt-[1rem]">
+        <p className="md:text-[2.75rem] font-Atkinson text-[2rem] font-[500] w-full px-[20px] md:px-0  md:w-[50%] text-center leading-[2.50rem] md:leading-[3.25rem] mt-[1rem]">
         Empowering ambitious teens to network, collaborate, grow, succeed
         </p>
-        <p className="md:text-[1.25rem] text-[1.125rem] font-[400] text-center md:w-[52%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
+        <p className="md:text-[1.25rem] font-Inter text-[1.125rem] font-[400] text-center md:w-[52%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
        In a fast-paced world where connections are the keys to success, teenagers often find themselves lacking the necessary opportunities to network and build valuable relationships
         </p>
-        <p className="md:text-[1.25rem] text-[1.125rem] font-[400] text-center md:w-[54%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
+        <p className="md:text-[1.25rem] font-Inter text-[1.125rem] font-[400] text-center md:w-[54%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
         Networking allows them to expand their horizons, learn from others, and open doors to exciting opportunities. However, a networking and collaboration platform focused on personal growth tailored specifically for teenagers didn’t exist - until now. Introducing NovoTeen - the ultimate networking platform for teenagers ready to make their mark on the world.        </p>
       </div>
       <div class="relative mt-10">
@@ -77,7 +77,7 @@ function interview() {
       </div>
       <div className="w-full h-full  flex justify-center mt-10">
         <div className="container  flex justify-center flex-col items-center">
-          <p className="py-6 md:text-[2rem] text-[1.5rem] font-[500] w-full px-[20px] text-center md:w-[40%]">Providing teenagers with the guidance they need to thrive</p>
+          <p className="py-6 md:text-[2rem] text-[1.5rem] font-[500] w-full px-[20px] font-Atkinson text-center md:w-[40%]">Providing teenagers with the guidance they need to thrive</p>
           <div className="grid md:grid-cols-2 grid-cols-1 w-[80%] py-6 mb-10 ">
             <div className="">
               <Image
@@ -88,21 +88,21 @@ function interview() {
               />
             </div>
             <div className="flex flex-col justify-center items-center">
-              <p className="text-[1rem] leading-[1.75rem] mt-[40px] w-full px-[20px] md:px-0 md:w-[84%]">
+              <p className="text-[1rem] font-Inter leading-[1.75rem] mt-[40px] w-full px-[20px] md:px-0 md:w-[84%]">
                 {" "}
                 We understand that networking, especially at such a crucial stage in their lives, requires <span className=" font-bold">more than just facilitating connections.</span>  NovoTeen has come up with a unique and comprehensive approach to empower these young minds to dream big and take bold steps towards their future.
                 </p>
               <Link
                 href="#"
-                className="flex items-center text-blue-500 text-center mt-5"
+                className="flex items-center  text-blue-500 text-center mt-5"
               >
-                <AiOutlinePlusCircle className="text-4xl mr-2" />
-                <p>Learn more about the process</p>
+                <AiOutlinePlusCircle className="text-4xl  mr-2" />
+                <p className=" ">Learn more about the process</p>
               </Link>
             </div>
           </div>
           <div className="pt-10 w-[80%] border-y-[1px] border-gray-400">
-            <p className="py-8 text-[2rem] font-[500] text-center">
+            <p className="py-8 text-[2rem] font-Atkinson font-[500] text-center">
               Learn more about our products and services.
             </p>
             <div className="flex items-center justify-center">
@@ -117,7 +117,7 @@ function interview() {
       </div>
       {/* color sections */}
       <div className="pt-[2.5rem] w-full h-full">
-        <p className="text-center pb-[2rem] md:pb-[4rem]">
+        <p className="text-center font-Inter pb-[2rem] md:pb-[4rem]">
           See available jobs for{" "}
           <Link href="#" className="font-[500] text-blue-600">
             {" "}
@@ -129,7 +129,7 @@ function interview() {
           </Link>
         </p>
         <div className="w-full h-full py-[5rem] flex-col bg-[#6DBAAB] flex justify-center items-center">
-          <p className="text-[1.75rem] text-white md:w-[65%] w-[85%] font-[400]">
+          <p className="text-[1.75rem] font-Inter text-white md:w-[65%] w-[85%] font-[400]">
             “At Square, we want all of our candidates to feel they can thrive
             during the interview process. We know that finding and choosing a
             job is deeply personal, and our team is here to help guide you
@@ -142,7 +142,7 @@ function interview() {
       </div>
       {/*  */}
       <div className="bg-[#F2F2F2] pt-[4rem]">
-        <p className="text-[2rem] font-[500] text-center">
+        <p className="text-[2rem] font-Atkinson font-[500] text-center">
           Get to know us a little better.
         </p>
         <div className="py-10 text-center">
@@ -160,7 +160,7 @@ function interview() {
             width={100}
             alt="Picture of the author"
           />
-          <p className="pt-[2rem] text-[2rem] font-[500] text-center">
+          <p className="pt-[2rem] text-[2rem] font-Atkinson font-[500] text-center">
             Find the right opportunity at Square.
           </p>
           <Link

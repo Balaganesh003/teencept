@@ -21,6 +21,7 @@ video {
   background-color: black;
 }
 
+
 .fade-in {
   opacity: 0;
   transform: translateY(80px);
@@ -44,3 +45,4 @@ video {
     @apply md:w-[80%] lg:w-[90%] xl:w-[95%] 2xl:w-[100%];
   }
 }
+
