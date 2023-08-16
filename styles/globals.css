@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 video {
   object-fit: fill;
   object-position: center;
@@ -11,7 +9,7 @@ video {
 
 /* write css for when  i click the button div should come from right in 3 sec  */
 
-.slide-in{
+.slide-in {
   transform: translateX(0);
 }
 
@@ -19,6 +17,32 @@ video {
   transform: translateX(100%);
 }
 
-.splide__arrow{
+.splide__arrow {
   background-color: black;
 }
+
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(80px);
+  animation: fadeInUp 0.8s forwards;
+  animation-delay: 0.3s;
+}
+
+.fade-initial {
+  opacity: 0;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer components {
+  .hero-img {
+    @apply md:w-[80%] lg:w-[90%] xl:w-[95%] 2xl:w-[100%];
+  }
+}
+
