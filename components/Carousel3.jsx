@@ -119,7 +119,7 @@ useEffect(() => {
                     src={image.url}
                     alt="as"
                 />
-                <p className='mt-[2rem] text-center'>{image.title}</p>
+                <p className='mt-[2rem] font-Inter text-center'>{image.title}</p>
                </div>
                 </SplideSlide>
             ))
