@@ -3,7 +3,7 @@ import React from "react";
 function Teenagers() {
   return (
     <>
-      <div className=" max-w-[1280px] mx-auto w-full h-full">
+      <div className=" max-w-[1280px] mx-auto pb-[80px] w-full h-full">
         <p className=" pl-[68px] mt-[127px] font-Inter text-[#686DE0] font-[500] text-[20px] tracking-[6px]">
           UNLEASH YOUR POTENTIAL
         </p>
