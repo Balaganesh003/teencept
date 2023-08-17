@@ -96,7 +96,7 @@ function Teenhall() {
         </div>
       </div>
       <div className="w-full  sm:mt-0 h-full bg-[#FC6243] ">
-        <div className=" max-w-[1280px] w-full py-[18px] h-[60px] ">
+        <div className=" max-w-[1280px] mx-auto w-full py-[18px] h-[60px] ">
           <Marquee
             direction="left"
             speed={65}
