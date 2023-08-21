@@ -12,10 +12,10 @@ function Cards({cardData}) {
         width={cardData. weight}
         height={cardData.height}
         />
-        <h3 className='text-[1rem]  font-Atkinson  font-[500] mt-[1.75rem]'>
+        <h3 className='text-[1rem]  font-Atkinson   font-bold mt-[1.75rem]'>
             {cardData.title}
         </h3>
-        <p className='mt-[0.5rem] font-Inter text-[1rem] font-[300] text-center'>
+        <p className='mt-[0.5rem] font-Inter text-[1rem] leading-[1.75] tracking-[-0.015em] font-[300] text-center'>
             {cardData.desc}
         </p>
         <Link href="#" className='text-blue-500 font-Inter flex text-[1rem] font-[400] items-center mt-[1.5rem]'>

@@ -13,8 +13,12 @@ module.exports = {
           'square-medium':['Square Sans Pro medium','Sans Sarif'],
           'Helvetica':['Helvetica','Sans Sarif'],
           'Inter':['Inter', 'sans-serif'],
-          'Atkinson':['Atkinson Hyperlegible', 'sans-serif']
-      }
+          'Atkinson':['Atkinson Hyperlegible', 'sans-serif'],
+          'Domine':['Domine', 'serif']
+      },
+      rotate: {
+        '75': '75deg',
+      },
     },
   },
   daisyui: {

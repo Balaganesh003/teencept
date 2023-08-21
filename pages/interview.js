@@ -66,10 +66,10 @@ function interview() {
         <p className="md:text-[2.75rem] font-Atkinson text-[2rem] font-[500] w-full px-[20px] md:px-0  md:w-[50%] text-center leading-[2.50rem] md:leading-[3.25rem] mt-[1rem]">
         Empowering ambitious teens to network, collaborate, grow, succeed
         </p>
-        <p className="md:text-[1.25rem] font-Inter text-[1.125rem] font-[400] text-center md:w-[52%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
+        <p className="md:text-[1.25rem] font-Inter leading-[1.75] text-[1.125rem] font-[400] text-center md:w-[52%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] tracking-[-0.015em]  ">
        In a fast-paced world where connections are the keys to success, teenagers often find themselves lacking the necessary opportunities to network and build valuable relationships
         </p>
-        <p className="md:text-[1.25rem] font-Inter text-[1.125rem] font-[400] text-center md:w-[54%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75rem] ">
+        <p className="md:text-[1.25rem] font-Inter text-[1.125rem] font-[400] text-center md:w-[54%] w-[80%]  md:pt-[2.625rem] pt-[1.635rem] leading-[1.75] tracking-[-0.015em] ">
         Networking allows them to expand their horizons, learn from others, and open doors to exciting opportunities. However, a networking and collaboration platform focused on personal growth tailored specifically for teenagers didn’t exist - until now. Introducing NovoTeen - the ultimate networking platform for teenagers ready to make their mark on the world.        </p>
       </div>
       <div class="relative mt-10">
@@ -88,7 +88,7 @@ function interview() {
               />
             </div>
             <div className="flex flex-col justify-center items-center">
-              <p className="text-[1rem] font-Inter leading-[1.75rem] mt-[40px] w-full px-[20px] md:px-0 md:w-[84%]">
+              <p className="text-[1rem] font-Inter  mt-[40px] w-full px-[20px] md:px-0 md:w-[84%] leading-[1.75] tracking-[-0.015em]">
                 {" "}
                 We understand that networking, especially at such a crucial stage in their lives, requires <span className=" font-bold">more than just facilitating connections.</span>  NovoTeen has come up with a unique and comprehensive approach to empower these young minds to dream big and take bold steps towards their future.
                 </p>

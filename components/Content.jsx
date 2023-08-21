@@ -57,7 +57,7 @@ function Content() {
         <h4 className="text-center font-Atkinson pt-[1.5rem] md:pt-[4.5rem] text-[2rem] font-[500]">
         Reimagining career networking for ambitious teenagers.
         </h4>
-        <p className="text-center mt-4 font-Inter text-[20px] w-[95%] lg:w-[50%] ">
+        <p className="text-center mt-4 font-Inter leading-[1.75] tracking-[-0.015em] text-[20px] w-[95%] lg:w-[50%] ">
         Are you a teenager with big dreams and ambitious career goals? Look no further! Teencept is here to revolutionize the way teenagers network, collaborate and unlock endless opportunities for personal and professional growth.
         </p>
       </div>
@@ -75,7 +75,7 @@ function Content() {
           <h3 className=" font-Atkinson text-[1.5rem] md:text-[1.75rem] font-[500] px-[20px] md:px-0 mt-[2rem] text-center">
           High school is just the beginning
           </h3>
-          <p className="md:mt-[2rem] font-Inter mt-[1rem] leading-[28px]  font-[400] text-center w-[85%] lg:w-[70%] ">
+          <p className="md:mt-[2rem] font-Inter mt-[1rem] leading-[1.75] tracking-[-0.015em] font-[400] text-center w-[85%] lg:w-[70%] ">
           High school is just the beginning
 In a world defined by connections, networking has become an essential skill. However, when it comes to professional networking platforms, teenagers often find themselves left out. That&apos;s where Teencept steps in - a unique networking platform designed exclusively for ambitious teenagers. {" "}
             <Link href="#" className="font-[500] text-blue-700">
