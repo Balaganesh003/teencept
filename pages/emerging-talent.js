@@ -29,21 +29,21 @@ function Emerging() {
   return (
     <>
       <div className="md:pt-[4.25rem] pt-[3.25rem]  flex justify-center items-center flex-col">
-        <p className="md:text-[2.75rem] text-[2rem] font-[500] sm:w-[46%]  md:w-[31%] text-center leading-[2.5rem] md:leading-[3.75rem] mt-[1rem]">
+        <p className="md:text-[2.75rem] text-[2rem] font-Atkinson font-[500] sm:w-[46%]  md:w-[31%] text-center leading-[2.5rem] md:leading-[3.75rem] mt-[1rem]">
           Opportunities for <br />
           emerging talent.
         </p>
-        <p className="text-[1.25rem] sm:block hidden  font-[300] text-center w-[42%]   md:mb-[25px] pt-[1.635rem] leading-[1.75rem] ">
+        <p className="text-[1.25rem] sm:block hidden  font-[400] leading-[1.75] tracking-[0.015em]  font-Inter  text-center w-[42%]   md:mb-[25px] pt-[1.635rem]  ">
           Surround yourself with limitless possibilities. Bring
           <br />
           your talents and launch your career at Square.
         </p>
-        <p className=" sm:hidden block text-[1.125rem] px-[50px] font-[300] text-center w-[100%]   md:mb-[25px] pt-[1.635rem] leading-[1.75rem] ">
+        <p className=" sm:hidden block text-[1.125rem] px-[50px] font-[300] text-center w-[100%]   md:mb-[25px] pt-[1.635rem] leading-[1.75] tracking-[0.015em] ">
           Surround yourself with limitless possibilities. Bring
           your talents and launch your career at Square.
         </p>
         <div className="w-full mt-[20px] sm:mt-0 flex justify-center">
-          <div className=" text-white bg-[#006aff] min-h-[50px] py-[13px] px-[20px] text-[1rem] font-sans rounded-[5px]">
+          <div className=" text-white bg-[#006aff] min-h-[50px] py-[13px] px-[20px] text-[1rem]  font-Atkinson rounded-[5px]">
             <Link href="/">View opportunities</Link>
           </div>
         </div>
@@ -60,14 +60,14 @@ function Emerging() {
           {/* second div for content */}
           <div className=" px-[50px] sm:pl-[80px] sm:pr-[10px] pb-[20px] flex items-center">
             <div className="w-fit h-fit">
-              <h3 className=" font-sans mb-[14px] text-[20px] sm:text-[1.5rem] font-[500]">
+              <h3 className=" font-Atkinson mb-[14px]  text-[20px] sm:text-[1.5rem] font-[500]">
               Join forces to create a true impact
               </h3>
-              <p className=" font-sans pb-[20px] w-full sm:w-[85%]">
+              <p className="  font-Inter leading-[1.75] tracking-[-0.015em] pb-[20px] w-full sm:w-[85%]">
               Develop valuable skills and collaborate with like-
 minded teenagers on impactful projects.
               </p>
-              <div class="flex w-full text-[#006aff]  font-[500] font-sans ">
+              <div class="flex w-full text-[#006aff]  font-[500] font-Atkinson ">
                 <Link
                   class="flex items-center "
                   href="https://developer.squareup.com/blog/empowering-businesses-what-its-like-to-intern-at-square/"
@@ -87,13 +87,13 @@ minded teenagers on impactful projects.
           {/* second div for content */}
           <div className=" px-[50px] sm:pl-[80px] sm:pr-[10px] pb-[20px] flex items-center">
             <div className="w-fit h-fit">
-              <h3 className=" font-sans mb-[14px] text-[20px] sm:text-[1.5rem] font-[500]">
+              <h3 className=" font-Atkinson mb-[14px] text-[20px] sm:text-[1.5rem] font-[500]">
               Empower and Celebrate
               </h3>
-              <p className=" font-sans pb-[20px] w-full sm:w-[85%]">
+              <p className=" font-Inter leading-[1.75] tracking-[-0.015em] pb-[20px] w-full sm:w-[85%]">
               Join an empowering community that celebrates your achievements and fuels your passion
               </p>
-              <div class="flex w-full text-[#006aff]  font-[500] font-sans ">
+              <div class="flex w-full text-[#006aff]  font-[500] font-Inter ">
                 <Link
                   class="flex items-center "
                   href="https://developer.squareup.com/blog/empowering-businesses-what-its-like-to-intern-at-square/"
@@ -113,14 +113,14 @@ minded teenagers on impactful projects.
           {/* second div for content */}
           <div className=" px-[50px] sm:pl-[80px] sm:pr-[10px] pb-[20px] flex items-center">
             <div className="w-fit h-fit">
-              <h3 className=" font-sans mb-[14px] text-[20px] sm:text-[1.5rem] font-[500]">
+              <h3 className=" font-Atkinson mb-[14px] text-[20px] sm:text-[1.5rem] font-[500]">
                 Aligning with our purpose
               </h3>
-              <p className=" font-sans pb-[20px] w-full sm:w-[85%]">
+              <p className=" font-Inter leading-[1.75] tracking-[-0.015em] pb-[20px] w-full sm:w-[85%]">
                 Help bring economic empowerment to all our sellers and build the
                 future of commerce.
               </p>
-              <div class="flex w-full text-[#006aff]  font-[500] font-sans ">
+              <div class="flex w-full text-[#006aff]  font-[500] font-Inter ">
                 <Link
                   class="flex items-center "
                   href="https://developer.squareup.com/blog/empowering-businesses-what-its-like-to-intern-at-square/"
@@ -135,7 +135,7 @@ minded teenagers on impactful projects.
         
       </div>
       <div className="w-full h-full py-[5rem] flex-col bg-[#6DBAAB] flex justify-center items-center">
-          <p className="text-[1.75rem] text-white text-center  w-[85%] font-[400]">
+          <p className="text-[1.75rem] text-white text-center font-Atkinson  w-[85%] font-[400]">
           “Innovative Networking for ambitious teenagers”
           </p>
          
@@ -146,10 +146,10 @@ minded teenagers on impactful projects.
               <img src="/images/emerging/PD01401_-_rocket_careers_large_icons.svg" alt="as" className=""/>
           </div>
           <div className=" mb-[20px]">
-          <h3 className=" sm:text-[2rem] text-[1.5rem] font-sans font-[500]">Launch your career at Square.</h3>
+          <h3 className=" sm:text-[2rem] text-[1.5rem] font-Atkinson font-[500]">Launch your career at Square.</h3>
           </div>
           <div className="w-full flex justify-center">
-          <div className=" text-white bg-[#006aff] min-h-[50px] py-[13px] px-[20px] text-[1rem] font-sans rounded-[5px]">
+          <div className=" text-white bg-[#006aff] min-h-[50px] py-[13px] px-[20px] text-[1rem] font-Atkinson rounded-[5px]">
             <Link href="/">View opportunities</Link>
           </div>
         </div>
@@ -163,8 +163,8 @@ minded teenagers on impactful projects.
                         return(
                           <>
                           <div key={index} className="flex flex-col   h-[180px] w-[320px] bg-white shadow-md py-8 px-6">
-                            <p className="text-start text-[1.125rem] font-[700]">{item.title}</p>
-                            <p className="pt-[1rem] text-[1rem] leading-[1.75rem]">{item.desc}</p>
+                            <p className="text-start text-[1.125rem] font-Atkinson font-[700]">{item.title}</p>
+                            <p className="pt-[1rem] text-[1rem] font-Inter leading-[1.75] tracking-[-0.015em]">{item.desc}</p>
                             </div>  
                           </>
                         )
