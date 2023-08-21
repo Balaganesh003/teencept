@@ -103,8 +103,8 @@ useEffect(() => {
             <div className="h-[220px] w-[320px] bg-[#fff]">
               <div className="w-full h-3 bg-red-700" />
               <div className="p-5 text-start">
-                <p className="font-[500]">{item.title}</p>
-                <p className="pt-[1.5rem] font-[300]">{item.desc}</p>
+                <p className="font-[500] font-Atkinson ">{item.title}</p>
+                <p className="pt-[1.5rem] leading-[1.75] tracking-[-0.015em] font-Inter font-[300]">{item.desc}</p>
                 <Link
                   href="#"
                   className="text-blue-500 flex text-[1rem] font-[500] items-center mt-[1.5rem]"
